@@ -56,7 +56,7 @@ class _MapAppState extends State<MapApp> {
           options: MapOptions(
             onTap: (p) async {
               location = await Geocoder.google(
-                      'REMOVED_PRIVATE_VALUE')
+                      'REPLACE_WITH_GOOGLE_MAPS_API_KEY')
                   .findAddressesFromCoordinates(
                       new Coordinates(p.latitude, p.longitude));
 

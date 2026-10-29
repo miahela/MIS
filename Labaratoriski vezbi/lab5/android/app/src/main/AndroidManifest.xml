@@ -10,7 +10,7 @@
         android:icon="@mipmap/ic_launcher">
       <!-- Add your Google Maps API Key here -->
     <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="REMOVED_PRIVATE_VALUE"/>
+               android:value="REPLACE_WITH_GOOGLE_MAPS_API_KEY"/>
 
    <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver">
     <intent-filter>
@@ -37,6 +37,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <meta-data android:name="com.google.android.app.geo.API_KEY" android:value="REMOVED_PRIVATE_VALUE"/>
+        <meta-data android:name="com.google.android.app.geo.API_KEY" android:value="REPLACE_WITH_GOOGLE_MAPS_API_KEY"/>
     </application>
 </manifest>
